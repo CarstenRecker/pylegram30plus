@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     start_handler = CommandHandler('start', start)
     caps_handler = CommandHandler('caps', caps)
-    
+    echo_handler = CommandHandler('echo', echo)
     application.add_handler(start_handler)
     application.add_handler(echo_handler)
     application.add_handler(caps_handler)
